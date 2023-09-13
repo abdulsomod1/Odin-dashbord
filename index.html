@@ -4,14 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com" rel="preconnect"  />
+    <link href="https://fonts.gstatic.com" rel="preconnect"  crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="shortcut icon" href="me.jpg" type="image/x-icon" />
+    <link href="styles.css" rel="stylesheet"  />
+    <link  type="image/x-icon"  href="me.jpg" rel="shortcut icon" />
     <title>Tenifayo Dashboard</title>
   </head>
 
@@ -19,48 +19,59 @@
     <div class="container">
       <div class="side-bar">
         <div class="nav-heading clickable">
-          <img class="dash-image" src="./icons/view-dashboard.png" alt="dashboard icon" />Dashboard
+          <img class="dash-image" src="./icons/view-dashboard.png" title="dash-image" alt="dashboard icon"  />Dashboard
         </div>
         <div class="nav-bar">
           <ul class="nav-list nav-styles">
-            <li><img class="simple-icon" src="./icons/home.png" alt="home icon" />Home</li>
+            <li><img class="simple-icon" src="./icons/home.png" title="simple-icon" alt="home icon" />Home</li>
             <li>
               <img
                 class="simple-icon"
                 src="./icons/card-account-details.png"
+                title="simple-icon"
                 alt="account icon"
+                
+                
               />Profile
             </li>
             <li>
-              <img class="simple-icon" src="./icons/message-reply.png" alt="message icon" />Messages
+              <img class="simple-icon" src="./icons/message-reply.png"  title="simple-icon" alt="message icon" />Messages
             </li>
             <li>
               <img
+              
                 class="simple-icon"
                 src="./icons/clock-time-three.png"
+                title="simple-icon"
                 alt="history icon"
+                
+                
               />History
             </li>
             <li>
-              <img class="simple-icon" src="./icons/note-multiple (1).png" alt="tasks icon" />Tasks
+              <img class="simple-icon" src="./icons/note-multiple (1).png"  title="simple-icon" alt="tasks icon" />Tasks
             </li>
             <li>
               <img
+                
                 class="simple-icon"
                 src="./icons/account-group.png"
+                title="simple-icon"
                 alt="communities icon"
+                
               />Communities
             </li>
           </ul>
         </div>
         <div class="setting-bar">
           <ul class="setting-list nav-styles">
-            <li><img class="simple-icon" src="./icons/cog.png" alt="settings icon" />Settings</li>
             <li>
-              <img class="simple-icon" src="./icons/help-box.png" alt="support icon" />Support
+              <img class="simple-icon"  src="./icons/cog.png" title="simple-icon" alt="settings icon" />Settings</li>
+            <li>
+              <img class="simple-icon" src="./icons/help-box.png" title="simple-icon"  alt="support icon" />Support
             </li>
             <li>
-              <img class="simple-icon" src="./icons/shield-check.png" alt="privacy icon" />Privacy
+              <img class="simple-icon" src="./icons/shield-check.png" title="simple-icon" alt="privacy icon" />Privacy
             </li>
           </ul>
         </div>
@@ -70,26 +81,27 @@
         <div class="top-header">
           <div class="search-bar">
             <div class="search-img clickable">
-              <input type="image" class="search-icon" form="myform" src="./icons/magnify.svg" />
+              <input  class="search-icon" src="./icons/magnify.svg"  type="image" alt="image"  form="myform"  />
             </div>
             <form id="myform" method="get" action="#">
               <input
                 class="search-input"
-                type="text"
+                
                 id="searchresult"
                 name="searchresult"
+                type="text"
                 value=""
               /><br /><br />
             </form>
           </div>
           <div class="profile-bar">
             <div class="clickable">
-              <img class="bell-icon" src="./icons/bell-ring-outline.svg" alt="notification icon" />
+              <img class="bell-icon" src="./icons/bell-ring-outline.svg" title="bell-icon" alt="notification icon" />
             </div>
             <div class="clickable">
-              <img class="profile-pic-small" src="me.jpg" alt="profile picture" />
+              <img class="profile-pic-small" src="me.jpg" title="profile-pic-small" alt="profile picture" />
             </div>
-            <a href="https://app.netlify.com/teams/abdulsomod1" class="clickable2"
+            <a  class="clickable2" href="https://app.netlify.com/teams/abdulsomod1" title="clickable2"
               ><div class="clickable">TENIFAYO ABDULSOMOD1</div></a
             >
           </div>
@@ -98,7 +110,7 @@
         <div class="bottom-header">
           <div class="profile-display">
             <div class="clickable">
-              <img class="profile-pic-large" src="me.jpg" alt="profile picture" />
+              <img class="profile-pic-large" src="me.jpg" title="profile-pic-large" alt="profile picture" />
             </div>
             <div class="name-greeting">
               <div class="greeting">Hello friends</div>
@@ -127,13 +139,13 @@
               <div class="project-interact-container">
                 <ul class="interactions">
                   <li class="interact-option">
-                    <img src="./icons/star-plus-outline.svg" alt="favorite post" />
+                    <img src="./icons/star-plus-outline.svg" title="favorite" alt="favorite post" />
                   </li>
                   <li class="interact-option">
-                    <img src="./icons/eye-plus-outline.svg" alt="save post" />
+                    <img src="./icons/eye-plus-outline.svg" title="favorite" alt="save post" />
                   </li>
                   <li class="interact-option">
-                    <img src="./icons/source-fork.svg" alt="fork project" />
+                    <img src="./icons/source-fork.svg" title="favorite" alt="fork project" />
                   </li>
                 </ul>
               </div>
@@ -150,13 +162,13 @@
               <div class="project-interact-container">
                 <ul class="interactions">
                   <li class="interact-option">
-                    <img src="./icons/star-plus-outline.svg" alt="favorite post" />
+                    <img src="./icons/star-plus-outline.svg" title="favorite" alt="favorite post" />
                   </li>
                   <li class="interact-option">
-                    <img src="./icons/eye-plus-outline.svg" alt="save post" />
+                    <img src="./icons/eye-plus-outline.svg" title="favorite" alt="save post" />
                   </li>
                   <li class="interact-option">
-                    <img src="./icons/source-fork.svg" alt="fork project" />
+                    <img src="./icons/source-fork.svg" title="favorite" alt="fork project" />
                   </li>
                 </ul>
               </div>
@@ -172,13 +184,13 @@
               <div class="project-interact-container">
                 <ul class="interactions">
                   <li class="interact-option">
-                    <img src="./icons/star-plus-outline.svg" alt="favorite post" />
+                    <img src="./icons/star-plus-outline.svg" title="favorite" alt="favorite post" />
                   </li>
                   <li class="interact-option">
-                    <img src="./icons/eye-plus-outline.svg" alt="save post" />
+                    <img src="./icons/eye-plus-outline.svg" title="save" alt="save post" />
                   </li>
                   <li class="interact-option">
-                    <img src="./icons/source-fork.svg" alt="fork project" />
+                    <img src="./icons/source-fork.svg" title="fork" alt="fork project" />
                   </li>
                 </ul>
               </div>
@@ -195,13 +207,13 @@
               <div class="project-interact-container">
                 <ul class="interactions">
                   <li class="interact-option">
-                    <img src="./icons/star-plus-outline.svg" alt="favorite post" />
+                    <img src="./icons/star-plus-outline.svg" title="favorite" alt="favorite post" />
                   </li>
                   <li class="interact-option">
-                    <img src="./icons/eye-plus-outline.svg" alt="save post" />
+                    <img src="./icons/eye-plus-outline.svg" title="save" alt="save post" />
                   </li>
                   <li class="interact-option">
-                    <img src="./icons/source-fork.svg" alt="fork project" />
+                    <img src="./icons/source-fork.svg" title="fork" alt="fork project" />
                   </li>
                 </ul>
               </div>
@@ -215,13 +227,13 @@
               <div class="project-interact-container">
                 <ul class="interactions">
                   <li class="interact-option">
-                    <img src="./icons/star-plus-outline.svg" alt="favorite post" />
+                    <img src="./icons/star-plus-outline.svg" title="favorite" alt="favorite post" />
                   </li>
                   <li class="interact-option">
-                    <img src="./icons/eye-plus-outline.svg" alt="save post" />
+                    <img src="./icons/eye-plus-outline.svg" title="save" alt="save post" />
                   </li>
                   <li class="interact-option">
-                    <img src="./icons/source-fork.svg" alt="fork project" />
+                    <img src="./icons/source-fork.svg" title="fork" alt="fork project" />
                   </li>
                 </ul>
               </div>
@@ -237,13 +249,13 @@
               <div class="project-interact-container">
                 <ul class="interactions">
                   <li class="interact-option">
-                    <img src="./icons/star-plus-outline.svg" alt="favorite post" />
+                    <img src="./icons/star-plus-outline.svg" title="favorite" alt="favorite post" />
                   </li>
                   <li class="interact-option">
-                    <img src="./icons/eye-plus-outline.svg" alt="save post" />
+                    <img src="./icons/eye-plus-outline.svg" title="save" alt="save post" />
                   </li>
                   <li class="interact-option">
-                    <img src="./icons/source-fork.svg" alt="fork project" />
+                    <img src="./icons/source-fork.svg" title="fork" alt="fork project" />
                   </li>
                 </ul>
               </div>
@@ -277,7 +289,7 @@
           <div class="trending-container">
             <div class="trending-profile">
               <div>
-                <img class="profile-pic-small" src="alubarika.jpg" alt="trending profile image" />
+                <img class="profile-pic-small" src="alubarika.jpg" title="trending-profile-image" alt="trending profile image" />
               </div>
               <div class="trending-profile-info">
                 <div class="trending-username">@Alubarika</div>
@@ -286,7 +298,7 @@
             </div>
             <div class="trending-profile">
               <div>
-                <img class="profile-pic-small" src="tenifayo.jpg" alt="trending profile image" />
+                <img class="profile-pic-small" src="tenifayo.jpg" title="trending-profile-image" alt="trending profile image" />
               </div>
               <div class="trending-profile-info">
                 <div class="trending-username">@tenifayoabdulsomod</div>
@@ -295,7 +307,7 @@
             </div>
             <div class="trending-profile">
               <div>
-                <img class="profile-pic-small" src="semiat.jpg" alt="trending profile image" />
+                <img class="profile-pic-small" src="semiat.jpg" title="trending-profile-image" alt="trending profile image" />
               </div>
               <div class="trending-profile-info">
                 <div class="trending-username">@semiat abisola</div>
@@ -304,7 +316,7 @@
             </div>
             <div class="trending-profile">
               <div>
-                <img class="profile-pic-small" src="Olatunji.jpg" alt="trending profile image" />
+                <img class="profile-pic-small" src="Olatunji.jpg" title="trending-profile-image" alt="trending profile image" />
               </div>
               <div class="trending-profile-info">
                 <div class="trending-username">@Olatunji Taiwo Yusuf</div>
