@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" href="me.jpg" type="image/x-icon" />
+    <title>Tenifayo Dashboard</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="side-bar">
+        <div class="nav-heading clickable">
+          <img class="dash-image" src="./icons/view-dashboard.png" alt="dashboard icon" />Dashboard
+        </div>
+        <div class="nav-bar">
+          <ul class="nav-list nav-styles">
+            <li><img class="simple-icon" src="./icons/home.png" alt="home icon" />Home</li>
+            <li>
+              <img
+                class="simple-icon"
+                src="./icons/card-account-details.png"
+                alt="account icon"
+              />Profile
+            </li>
+            <li>
+              <img class="simple-icon" src="./icons/message-reply.png" alt="message icon" />Messages
+            </li>
+            <li>
+              <img
+                class="simple-icon"
+                src="./icons/clock-time-three.png"
+                alt="history icon"
+              />History
+            </li>
+            <li>
+              <img class="simple-icon" src="./icons/note-multiple (1).png" alt="tasks icon" />Tasks
+            </li>
+            <li>
+              <img
+                class="simple-icon"
+                src="./icons/account-group.png"
+                alt="communities icon"
+              />Communities
+            </li>
+          </ul>
+        </div>
+        <div class="setting-bar">
+          <ul class="setting-list nav-styles">
+            <li><img class="simple-icon" src="./icons/cog.png" alt="settings icon" />Settings</li>
+            <li>
+              <img class="simple-icon" src="./icons/help-box.png" alt="support icon" />Support
+            </li>
+            <li>
+              <img class="simple-icon" src="./icons/shield-check.png" alt="privacy icon" />Privacy
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="header">
+        <div class="top-header">
+          <div class="search-bar">
+            <div class="search-img clickable">
+              <input type="image" class="search-icon" form="myform" src="./icons/magnify.svg" />
+            </div>
+            <form id="myform" method="get" action="#">
+              <input
+                class="search-input"
+                type="text"
+                id="searchresult"
+                name="searchresult"
+                value=""
+              /><br /><br />
+            </form>
+          </div>
+          <div class="profile-bar">
+            <div class="clickable">
+              <img class="bell-icon" src="./icons/bell-ring-outline.svg" alt="notification icon" />
+            </div>
+            <div class="clickable">
+              <img class="profile-pic-small" src="me.jpg" alt="profile picture" />
+            </div>
+            <a href="https://app.netlify.com/teams/abdulsomod1" class="clickable2"
+              ><div class="clickable">TENIFAYO ABDULSOMOD1</div></a
+            >
+          </div>
+        </div>
+
+        <div class="bottom-header">
+          <div class="profile-display">
+            <div class="clickable">
+              <img class="profile-pic-large" src="me.jpg" alt="profile picture" />
+            </div>
+            <div class="name-greeting">
+              <div class="greeting">Hello friends</div>
+              <div class="name">Teniayo abdulsomod1</div>
+            </div>
+          </div>
+          <div class="make-post">
+            <button class="head-button clickable">New</button>
+            <button class="head-button clickable">Upload</button>
+            <button class="head-button clickable">Share</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="main">
+        <div class="project-display">
+          <div class="project-section-heading">My projects</div>
+          <div class="projects-container">
+            <div class="project">
+              <div class="project-text">
+                <div class="project-heading">Technicle documentation page</div>
+                <div class="project-description">
+                  A freecodecamp project 3rd project for web development certification.
+                </div>
+              </div>
+              <div class="project-interact-container">
+                <ul class="interactions">
+                  <li class="interact-option">
+                    <img src="./icons/star-plus-outline.svg" alt="favorite post" />
+                  </li>
+                  <li class="interact-option">
+                    <img src="./icons/eye-plus-outline.svg" alt="save post" />
+                  </li>
+                  <li class="interact-option">
+                    <img src="./icons/source-fork.svg" alt="fork project" />
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="project">
+              <div class="project-text">
+                <div class="project-heading">Portfolio project</div>
+                <div class="project-description">
+                  A project that contains some information about a person and it contains many
+                  challenges.
+                </div>
+              </div>
+              <div class="project-interact-container">
+                <ul class="interactions">
+                  <li class="interact-option">
+                    <img src="./icons/star-plus-outline.svg" alt="favorite post" />
+                  </li>
+                  <li class="interact-option">
+                    <img src="./icons/eye-plus-outline.svg" alt="save post" />
+                  </li>
+                  <li class="interact-option">
+                    <img src="./icons/source-fork.svg" alt="fork project" />
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="project">
+              <div class="project-text">
+                <div class="project-heading">Podcast App UI design using Figma</div>
+                <div class="project-description">
+                  Podcast App UI design using figma and is one of the UI trending project.
+                </div>
+              </div>
+              <div class="project-interact-container">
+                <ul class="interactions">
+                  <li class="interact-option">
+                    <img src="./icons/star-plus-outline.svg" alt="favorite post" />
+                  </li>
+                  <li class="interact-option">
+                    <img src="./icons/eye-plus-outline.svg" alt="save post" />
+                  </li>
+                  <li class="interact-option">
+                    <img src="./icons/source-fork.svg" alt="fork project" />
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="project">
+              <div class="project-text">
+                <div class="project-heading">All project are trending</div>
+                <div class="project-description">
+                  All his project are trending he always work on some project everyday so all
+                  project are trending.
+                </div>
+              </div>
+              <div class="project-interact-container">
+                <ul class="interactions">
+                  <li class="interact-option">
+                    <img src="./icons/star-plus-outline.svg" alt="favorite post" />
+                  </li>
+                  <li class="interact-option">
+                    <img src="./icons/eye-plus-outline.svg" alt="save post" />
+                  </li>
+                  <li class="interact-option">
+                    <img src="./icons/source-fork.svg" alt="fork project" />
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="project">
+              <div class="project-text">
+                <div class="project-heading">Uncoming (road conter)</div>
+                <div class="project-description">One of the first javascript project .</div>
+              </div>
+              <div class="project-interact-container">
+                <ul class="interactions">
+                  <li class="interact-option">
+                    <img src="./icons/star-plus-outline.svg" alt="favorite post" />
+                  </li>
+                  <li class="interact-option">
+                    <img src="./icons/eye-plus-outline.svg" alt="save post" />
+                  </li>
+                  <li class="interact-option">
+                    <img src="./icons/source-fork.svg" alt="fork project" />
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="project">
+              <div class="project-text">
+                <div class="project-heading">Uncoming project ( Conventional calculator)</div>
+                <div class="project-description">
+                  Conventional calculator is one of javascript project as well .
+                </div>
+              </div>
+              <div class="project-interact-container">
+                <ul class="interactions">
+                  <li class="interact-option">
+                    <img src="./icons/star-plus-outline.svg" alt="favorite post" />
+                  </li>
+                  <li class="interact-option">
+                    <img src="./icons/eye-plus-outline.svg" alt="save post" />
+                  </li>
+                  <li class="interact-option">
+                    <img src="./icons/source-fork.svg" alt="fork project" />
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="announcements-section">
+          <div class="announcements-section-heading">Quotes</div>
+          <div class="announcements-container">
+            <div class="announcement-heading">Be Sturbbon</div>
+            <div class="announcement-description">
+              Be sturbbon which means don`t ever esitate be sturbbon because the work is sturbbon as
+              well
+            </div>
+            <hr />
+            <div class="announcement-heading">Never relent</div>
+            <div class="announcement-description">
+              Never relent any time keep working everyday and never think of quiting.
+            </div>
+            <hr />
+            <div class="announcement-heading">Future price</div>
+            <div class="announcement-description">
+              Think about the future price of the work and never work without an aim.
+            </div>
+          </div>
+        </div>
+
+        <div class="trending-profiles-section">
+          <div class="announcements-section-heading">Trending</div>
+          <div class="trending-container">
+            <div class="trending-profile">
+              <div>
+                <img class="profile-pic-small" src="alubarika.jpg" alt="trending profile image" />
+              </div>
+              <div class="trending-profile-info">
+                <div class="trending-username">@Alubarika</div>
+                <div class="trending-project">Technical documentation page</div>
+              </div>
+            </div>
+            <div class="trending-profile">
+              <div>
+                <img class="profile-pic-small" src="tenifayo.jpg" alt="trending profile image" />
+              </div>
+              <div class="trending-profile-info">
+                <div class="trending-username">@tenifayoabdulsomod</div>
+                <div class="trending-project">Portfolio project</div>
+              </div>
+            </div>
+            <div class="trending-profile">
+              <div>
+                <img class="profile-pic-small" src="semiat.jpg" alt="trending profile image" />
+              </div>
+              <div class="trending-profile-info">
+                <div class="trending-username">@semiat abisola</div>
+                <div class="trending-project">Podcast App UI design using Figma</div>
+              </div>
+            </div>
+            <div class="trending-profile">
+              <div>
+                <img class="profile-pic-small" src="Olatunji.jpg" alt="trending profile image" />
+              </div>
+              <div class="trending-profile-info">
+                <div class="trending-username">@Olatunji Taiwo Yusuf</div>
+                <div class="trending-project">All project are trending</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
