@@ -1,16 +1,16 @@
-# Odin project sign up form
+# Odin dashboard project
 
-> One paragraph statement about the project.
+> The project contains some information .
 
 ![screenshot](./app_screenshot.png)
 
-Additional description of the project and its features.
+The project is one of the project that tells about the doer .
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML,
+- CSS,
+- Reamdme
 
 ## Live Demo
 
