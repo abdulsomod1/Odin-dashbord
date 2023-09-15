@@ -226,11 +226,7 @@ ul li {
   flex-direction: column;
   justify-content: space-between;
   /* stylelint-disable-next-line prettier/prettier */
-  background-image: linear-gradient (left,
-      #88c7ff,
-      #88c7ff 2%,
-      transparent 2%,
-      transparent 100%);
+  background-image: linear-gradient (left, #88c7ff, #88c7ff 2%, transparent 2%, transparent 100%);
 }
 
 .project-heading {
