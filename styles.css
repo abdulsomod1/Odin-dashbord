@@ -119,7 +119,7 @@ ul li {
 }
 
 .profile-bar img {
-  margin-right: 5px;
+  margin-right: 15px;
 }
 
 .profile-pic-small {
@@ -227,6 +227,7 @@ ul li {
   justify-content: space-between;
   /* stylelint-disable-next-line prettier/prettier */
   background-image: linear-gradient (left, #88c7ff, #88c7ff 2%, transparent 2%, transparent 100%);
+  border-left: 7px solid #f59e0b;
 }
 
 .project-heading {
