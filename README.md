@@ -1,15 +1,15 @@
 # Odin dashboard project
 
-> The project contains some information .
+> The dashboard gives you a bird's eye of your Works so you can see how your work is going.
 
 ![screenshot](./app_screenshot.png)
 
-The project is one of the project that tells about the doer .
+The project show out some abilities as well .
 
 ## Built With
 
-- HTML,
-- CSS,
+- HTML semantic elements : div , ul and input etc .
+- CSS elements : display flex , display grid , box shadow etc .
 - Reamdme
 
 ## Live Demo
