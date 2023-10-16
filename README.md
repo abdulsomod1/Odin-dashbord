@@ -1,7 +1,8 @@
 # Odin dashboard project
+
 > An Odin dashboard built using CSS flexbox and some semantic html elements.
 
-![screenshot](./screenshot.jpg)
+![screenshot](./web-screenshot.jpg)
 
 ## Built With
 
