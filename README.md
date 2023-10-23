@@ -1,16 +1,25 @@
-# Odin project sign up form
+# Odin dashboard project
 
-> One paragraph statement about the project.
+> An Odin dashboard built using CSS flexbox and some semantic html elements.
 
-![screenshot](./app_screenshot.png)
-
-Additional description of the project and its features.
+![screenshot](./web-screenshot.jpg)
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML5 form elements
+  - `div`, `img`, `ul`, `ìnput`.
+- CSS properties
+  - `background-color`, `display`, `justify-content`.
+- Linters
+  - [Prettier](https://prettier.io/),
+  - [Stylelint](https://stylelint.io/).
+- GitHub Action
+
+## Built With
+
+- HTML semantic elements : input , div , img and ul etc .
+- CSS elements : display flex , display grid , grid-template etc .
+- Reamdme
 
 ## Live Demo
 
@@ -21,7 +30,7 @@ Additional description of the project and its features.
 - Clone the project
 
 ```bash
-git clone https://github.com/abdulsomod1/odin-sign-up-form.git
+git clone git@github.com:abdulsomod1/Odin-dashbord.git
 ```
 
 - Install Dependencies
